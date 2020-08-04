@@ -35,11 +35,11 @@ h1, h2, h3, h4, h5, h6 {
 	<div class="w3-top w3-light-blue">
 		<div class="w3-bar w3-white w3-padding w3-card"
 			style="letter-spacing: 4px;">
-			<a href="#home" class="w3-bar-item w3-button">Woori Jigum Manna</a>
+			<a href="#" class="w3-bar-item w3-button">Woori Jigum Manna</a>
 			<!-- Right-sided navbar links. Hide them on small screens -->
 			<div class="w3-right w3-hide-small">
-				<a href="#about" class="w3-bar-item w3-button">Sign In</a> <a
-					href="#menu" class="w3-bar-item w3-button">Sign Up</a>
+				<a href="loginform.jsp" class="w3-bar-item w3-button">Sign In</a> <a
+					href="joinform.jsp" class="w3-bar-item w3-button">Sign Up</a>
 			</div>
 			<div class="w3-right w3-hide-large w3-hide-medium">
 				<a class="w3-bar-item w3-button">
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 					<span class="w3-large">Jane</span><br> <span>Accountant</span>
 				</div></li>
 			<li class="w3-bar" align='center'>
-				<button type="submit" class="btn btn-primary">Primary</button>
+				<button type="submit" class="btn btn-primary" onclick="location.href='center.jsp'">Primary</button>
 			</li>
 		</ul>
 	</div>

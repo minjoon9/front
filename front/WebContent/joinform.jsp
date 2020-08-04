@@ -8,11 +8,11 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link
 	href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap"
 	rel="stylesheet">
-<link rel="stylesheet"
-	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
 	font-family: 'Nanum Gothic', sans-serif;
@@ -38,8 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 			<a href="index.jsp" class="w3-bar-item w3-button">Woori Jigum Manna</a>
 			<!-- Right-sided navbar links. Hide them on small screens -->
 			<div class="w3-right w3-hide-small">
-				<a href="#about" class="w3-bar-item w3-button">Sign In</a> <a
-					href="#menu" class="w3-bar-item w3-button">Sign Up</a>
+				<a href="loginform.jsp" class="w3-bar-item w3-button">Sign In</a> <a
+					href="joinform.jsp" class="w3-bar-item w3-button">Sign Up</a>
 			</div>
 			<div class="w3-right w3-hide-large w3-hide-medium">
 				<a class="w3-bar-item w3-button"> <i class="fa fa-user-circle"
@@ -47,39 +47,28 @@ h1, h2, h3, h4, h5, h6 {
 			</div>
 		</div>
 	</div>
-	<div class="container-sm " align="center" style="margin-top: 80px">
-		<div class="container">
-			<img src="map.png">
-		</div>
-		<div class='container-sm'>
-			<h3>추천추천</h3>
-			<!-- Nav tabs -->
-			<ul class="nav nav-tabs">
-				<li class="nav-item"><a class="nav-link active"
-					data-toggle="tab" href="#home">대화역</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="tab"
-					href="#menu1">주엽역</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="tab"
-					href="#menu2">정발산역</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="tab"
-					href="#menu2">마두역</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="tab"
-					href="#menu2">백석역</a></li>
-			</ul>
-
-			<!-- Tab panes -->
-			<div class="tab-content">
-				<div class="tab-pane container active" id="home">...</div>
-				<div class="tab-pane container fade" id="menu1">...</div>
-				<div class="tab-pane container fade" id="menu2">...</div>
-				<div class="tab-pane container fade" id="menu3">...</div>
-				<div class="tab-pane container fade" id="menu4">...</div>
+	<div class='container-sm' style='margin-top: 80px'>
+		<form action="userinfo.jsp">
+			<div class="form-group">
+				<label for="email">Email address:</label> <input type="email"
+					class="form-control" placeholder="Enter email" id="email" required>
 			</div>
-		</div>
-		<button class="btn btn-success" onclick="location.href='cat.jsp'">button</button>
+			<div class="form-group">
+				<label for="pwd">Password:</label> <input type="password"
+					class="form-control" placeholder="Enter password" id="pwd" required>
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password check:</label> <input type="password"
+					class="form-control" placeholder="Enter password" required>
+			</div>
+			<div class="form-group">
+				<label for="name">Name:</label> <input type="text"
+					class="form-control" placeholder="Enter name" required>
+			</div>
+			<button type="submit" class="w3-button w3-white w3-border w3-border-gray w3-round-large">Submit</button>
+			<button type="button" class="w3-button w3-white w3-border w3-border-gray w3-round-large" onclick="location.href='joinform.jsp'">Sign up</button>
+		</form>
 	</div>
-	<br>
-	<br>
 	<footer class="w3-center w3-light-grey w3-padding-32">
 		<p>
 			Powered by <a href="https://www.w3schools.com/w3css/default.asp"
@@ -88,6 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 	</footer>
 </body>
 </html>
+
+
 
 
 

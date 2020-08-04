@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Nanum Gothic', sans-serif;
 	letter-spacing: 5px;
 }
+
+.col {
+	padding: 10px;
+}
 </style>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -51,32 +55,30 @@ h1, h2, h3, h4, h5, h6 {
 		<div class="container">
 			<img src="map.png">
 		</div>
-		<div class='container-sm'>
-			<h3>추천추천</h3>
-			<!-- Nav tabs -->
-			<ul class="nav nav-tabs">
-				<li class="nav-item"><a class="nav-link active"
-					data-toggle="tab" href="#home">대화역</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="tab"
-					href="#menu1">주엽역</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="tab"
-					href="#menu2">정발산역</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="tab"
-					href="#menu2">마두역</a></li>
-				<li class="nav-item"><a class="nav-link" data-toggle="tab"
-					href="#menu2">백석역</a></li>
-			</ul>
-
-			<!-- Tab panes -->
-			<div class="tab-content">
-				<div class="tab-pane container active" id="home">...</div>
-				<div class="tab-pane container fade" id="menu1">...</div>
-				<div class="tab-pane container fade" id="menu2">...</div>
-				<div class="tab-pane container fade" id="menu3">...</div>
-				<div class="tab-pane container fade" id="menu4">...</div>
+		<br>
+		<div class="row">
+			<div class="col">
+				<i class="fa fa-search"></i>
+			</div>
+			<div class="col">
+				<i class="fa fa-search"></i>
+			</div>
+			<div class="col">
+				<i class="fa fa-search"></i>
+			</div>
+			<div class="col">
+				<i class="fa fa-search"></i>
+			</div>
+			<div class="col">
+				<i class="fa fa-search"></i>
 			</div>
 		</div>
-		<button class="btn btn-success" onclick="location.href='cat.jsp'">button</button>
+		<br>
+		<ul class="list-group">
+			<li class="list-group-item">First item</li>
+			<li class="list-group-item">Second item</li>
+			<li class="list-group-item">Third item</li>
+		</ul>
 	</div>
 	<br>
 	<br>
