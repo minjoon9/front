@@ -35,15 +35,15 @@ h1, h2, h3, h4, h5, h6 {
 	<div class="w3-top w3-light-blue">
 		<div class="w3-bar w3-white w3-padding w3-card"
 			style="letter-spacing: 4px;">
-			<a href="#" class="w3-bar-item w3-button">Woori Jigum Manna</a>
+			<a href="index.jsp" class="w3-bar-item w3-button">Woori Jigum Manna</a>
 			<!-- Right-sided navbar links. Hide them on small screens -->
 			<div class="w3-right w3-hide-small">
 				<a href="loginform.jsp" class="w3-bar-item w3-button">Sign In</a> <a
 					href="joinform.jsp" class="w3-bar-item w3-button">Sign Up</a>
 			</div>
 			<div class="w3-right w3-hide-large w3-hide-medium">
-				<a class="w3-bar-item w3-button">
-				<i class="fa fa-user-circle" aria-hidden="true">
+				<a href="login.jsp" class="w3-bar-item w3-button">
+				<i class="fa fa-user-circle fa-lg" aria-hidden="true">
 				</i></a>
 			</div>
 		</div>
@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
 			<input type="text" id="bt" class="form-control"
 				placeholder="input your address">
 			<div class="input-group-append">
-				<button type="button" class="btn btn-primary" data-toggle="modal"
+				<button type="button" class="btn btn-dark" data-toggle="modal"
 					data-target="#myModal">Search</button>
 				<br>
 			</div>
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 					<span class="w3-large">Jane</span><br> <span>Accountant</span>
 				</div></li>
 			<li class="w3-bar" align='center'>
-				<button type="submit" class="btn btn-primary" onclick="location.href='center.jsp'">Primary</button>
+				<button type="submit" class="btn btn-dark" onclick="location.href='center.jsp'">Primary</button>
 			</li>
 		</ul>
 	</div>

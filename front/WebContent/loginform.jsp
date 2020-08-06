@@ -42,12 +42,15 @@ h1, h2, h3, h4, h5, h6 {
 					href="joinform.jsp" class="w3-bar-item w3-button">Sign Up</a>
 			</div>
 			<div class="w3-right w3-hide-large w3-hide-medium">
-				<a class="w3-bar-item w3-button"> <i class="fa fa-user-circle"
-					aria-hidden="true"> </i></a>
+				<a href="login.jsp" class="w3-bar-item w3-button">
+				<i class="fa fa-user-circle fa-lg" aria-hidden="true">
+				</i></a>
 			</div>
 		</div>
 	</div>
 	<div class='container-sm' style='margin-top: 80px'>
+	<h1>Sign In</h1>
+	<br>
 		<form action="userinfo.jsp">
 			<div class="form-group">
 				<label for="email">Email address:</label> <input type="email"
@@ -57,11 +60,13 @@ h1, h2, h3, h4, h5, h6 {
 				<label for="pwd">Password:</label> <input type="password"
 					class="form-control" placeholder="Enter password" id="pwd">
 			</div>
+			<!--
 			<div class="form-group form-check">
 				<label class="form-check-label"> <input
 					class="form-check-input" type="checkbox" required> Remember me
 				</label>
 			</div>
+			-->
 			<button type="submit" class="w3-button w3-white w3-border w3-border-gray w3-round-large">Submit</button>
 			<button type="button" class="w3-button w3-white w3-border w3-border-gray w3-round-large" onclick="location.href='joinform.jsp'">Sign up</button>
 		</form>

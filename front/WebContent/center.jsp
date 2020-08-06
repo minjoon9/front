@@ -38,18 +38,19 @@ h1, h2, h3, h4, h5, h6 {
 			<a href="index.jsp" class="w3-bar-item w3-button">Woori Jigum Manna</a>
 			<!-- Right-sided navbar links. Hide them on small screens -->
 			<div class="w3-right w3-hide-small">
-				<a href="#about" class="w3-bar-item w3-button">Sign In</a> <a
-					href="#menu" class="w3-bar-item w3-button">Sign Up</a>
+				<a href="loginform.jsp" class="w3-bar-item w3-button">Sign In</a> <a
+					href="joinform.jsp" class="w3-bar-item w3-button">Sign Up</a>
 			</div>
 			<div class="w3-right w3-hide-large w3-hide-medium">
-				<a class="w3-bar-item w3-button"> <i class="fa fa-user-circle"
-					aria-hidden="true"> </i></a>
+				<a href="login.jsp" class="w3-bar-item w3-button">
+				<i class="fa fa-user-circle fa-lg" aria-hidden="true">
+				</i></a>
 			</div>
 		</div>
 	</div>
 	<div class="container-sm " align="center" style="margin-top: 80px">
 		<div class="container">
-			<img src="map.png">
+			<img src="map.png" style="width:100%;max-width:400px">
 		</div>
 		<div class='container-sm'>
 			<h3>추천추천</h3>
@@ -76,7 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 				<div class="tab-pane container fade" id="menu4">...</div>
 			</div>
 		</div>
-		<button class="btn btn-success" onclick="location.href='cat.jsp'">button</button>
+		<button class="btn btn-dark" onclick="location.href='cat.jsp'">Select</button>
 	</div>
 	<br>
 	<br>
@@ -88,16 +89,6 @@ h1, h2, h3, h4, h5, h6 {
 	</footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
 
 
 
